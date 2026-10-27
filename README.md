@@ -4,9 +4,9 @@
 
 SEO Inspector lets you inspect any web page directly from Alfred. Check metadata, headings, images, structured data, internal links and more, without opening Developer Tools or subscribing to an SEO service.
 
-<img width="3024" height="1714" alt="SEO Inspector v2 4 0" src="https://github.com/user-attachments/assets/7b9ba3d3-4625-494b-91ce-ba33a5cdbeda" />
-
 Created by **Adam Jackson**, with development assistance from **ChatGPT Work**.
+
+<img width="3022" height="1714" alt="SEO Inspector v2 4 1" src="https://github.com/user-attachments/assets/22100b51-bf6c-46b9-a2e3-5c1b882b7dff" />
 
 ## Features
 
