@@ -6,7 +6,18 @@ SEO Inspector lets you inspect any web page directly from Alfred. Check metadata
 
 Created by **Adam Jackson**, with development assistance from **ChatGPT Work**.
 
-<img width="3024" height="1714" alt="SEO Inspector v2 7 0" src="https://github.com/user-attachments/assets/8af01963-7a0b-414b-adf2-53605f87d312" />
+<img width="3024" height="1718" alt="SEO Inspector v2 7 1" src="https://github.com/user-attachments/assets/41916356-9cea-4cec-9215-a3918ad74520" />
+
+## What's new in v2.7.1
+
+This maintenance release refines how SEO Inspector reports page title and meta-description lengths.
+
+- Modest departures from conventional length guidance now appear as informational observations rather than warnings.
+- Genuinely excessive lengths can still generate warnings.
+- Reporting reflects the fact that search engines don't impose fixed character limits and may shorten or rewrite snippets.
+- Reduces unnecessary warnings while retaining useful guidance.
+
+All other features and existing inspection behaviour remain unchanged.
 
 ## Features
 
@@ -100,6 +111,14 @@ Ordinary redirects, including HTTP-to-HTTPS redirects, aren't automatically trea
 ### Metadata, canonical URLs and robots directives
 
 SEO Inspector checks page titles, meta descriptions, canonical URLs, meta robots directives and the HTTP `X-Robots-Tag` header.
+
+**Title and meta-description lengths**
+
+SEO Inspector distinguishes modest departures from conventional length guidance from genuinely excessive lengths.
+
+Modest deviations appear as informational observations, while unusually long values can generate warnings. Search engines don't enforce fixed character limits, and the length of a displayed snippet depends on several factors.
+
+These findings provide practical guidance rather than definitive predictions of how a search result will appear.
 
 **Canonical URL validation**
 
